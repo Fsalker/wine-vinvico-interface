@@ -1,15 +1,18 @@
 {
-  "name": "wine-vinvico-interface",
+  "name": "vinuri-bune-js",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "crawl-live": "node super.js crawl-live",
+    "crawl-offline": "node super.js crawl-offline",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "jsdom": "^15.1.1",
+    "request-promise-native": "^1.0.7"
   }
 }
