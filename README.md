@@ -1,0 +1,3 @@
+# The Interface
+0. Fill `wineData.txt` with the crawled data from the `/crawler` branch in this repo. You will first have to run the crawler (I recommend using `crawl-live`, it's easier) and fetch the information stored in `/crawl/products_detailed/` in the most recent `txt` file. It's worth noting that all crawled data is stored in the folder and the appended number corresponds to the UNIX timestamp when you ran the crawler.
+1. `node server.js` in order to launch this tiny server. It will allow users to connect on PORT 1337 and visualise the crawled data.
